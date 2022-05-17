@@ -1,8 +1,8 @@
 
 
-const titre = React.createElement('h1',{}, "Hello world!");
+const helloWorld = React.createElement('h1',{}, "Hello world!");
 
 ReactDOM.render(
-    titre,
-    document.getElementById('global')
+    helloWorld,
+    document.getElementById('app')
   );
